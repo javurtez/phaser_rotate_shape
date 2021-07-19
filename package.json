@@ -1,0 +1,16 @@
+{
+  "name": "ambak",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "vite": "^2.4.2"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
