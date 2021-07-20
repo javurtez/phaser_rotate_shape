@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: "kenney_pixel";   
   src: url('../src/assets/Font/kenney_pixel.ttf');
@@ -6,3 +11,17 @@
   font-family: "kenney_blocks";   
   src: url('../src/assets/Font/kenpixel_blocks.ttf');
 } */
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ff3c00;
+  height: 100%;
+  width: 100%;
+  margin: none;
+}
+
+.window-controls {
+  margin-bottom: 0;
+}
